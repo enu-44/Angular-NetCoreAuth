@@ -12,7 +12,6 @@ namespace auth_angular.Controllers
     [Route("api/[controller]")]
     public class AccountsController:Controller
     {
-
         #region Atributes
         private readonly ApplicationDbContext _appDbContext;
         private readonly UserManager<AppUser> _userManager;
